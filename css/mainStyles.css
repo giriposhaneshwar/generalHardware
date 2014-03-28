@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "Century Gothic";
+  font-style: normal;
+  src: url("fonts/GOTHIC.TTF");
+}
+
+body, html {
+	background-image:url(../images/bgshade.jpg);
+	background-position:top center;
+	background-color:#93b5bc;
+	background-repeat:no-repeat;
+	background-origin:content-box;
+     font-family: "Century Gothic";
+     margin: 0px;
+     padding: 0px;
+}
+
+#topStick {
+     background-color: #212121;
+     display: block;
+     height: 5px;
+}
+
+#body {
+     height: 400px;
+}
+
+#headerMain {
+    
+}
+
+#navMenu {
+     background-color: #023756;
+}
+
+#navMenu a {
+     color: #4DC5AD;
+     display: block;
+     padding: 8px 15px;
+     text-align: center;
+     text-decoration: none;
+	 font-weight:bold;
+}
+
+.active, #navMenu a:hover {
+     background-color: #266A7A;
+     color: #FFFFFF ! important;
+     margin: 3px 0px;
+}
+
+#slider {
+     background: url("../images/shade.png") no-repeat scroll center bottom transparent;
+     padding-bottom: 41px;
+     padding-top: 20px;
+}
+
+.marqueeElement {
+     color: #CCCCCC;
+     height: 150px;
+     position: absolute;
+     width: 150px;
+}
+
+.marqueeElement img {
+     height: 100px;
+}
+
+#mholder {
+     border-bottom: 1px solid #000000;
+     border-top: 1px solid #000000;
+     clear: both;
+     display: block;
+     height: 200px;
+     margin: 10px 0px;
+     overflow: hidden;
+     position: absolute;
+     width: 150px;
+}
+
+#intro {
+     background-color: #FFFFFF;
+     color: #505050;
+     display: table-cell;
+     font-size: 0.96em;
+     height: 250px;
+}
+
+h3 {
+     background-color: #B1D2DA;
+     color: #266A7A;
+     display: block;
+     font-size: 1.1em;
+     padding: 8px 5px;
+}
+
+#intro #introMessage {
+     display: block;
+     padding: 15px 8px;
+}
+#intro #introMessage a{
+     text-decoration: none;
+	 font-weight:bold;
+	 color: #0E0635;
+}
+
+#designer a {
+     color: #FFFFFF;
+     padding: 8px;
+}
+
+#heading {
+     display: block;
+     font-size: 1.4em;
+     font-weight: bold;
+     text-transform: uppercase;
+}
+
+#headingSub {
+     background-color: #F2F2F2;
+     display: block;
+     font-size: 0.86em;
+     font-weight: bold;
+     padding: 8px 0px;
+     text-align: center;
+     text-transform: uppercase;
+}
+
+#list {
+     border-radius: 8px 8px 8px 8px;
+     list-style: circle outside none;
+     margin: 0px;
+     padding: 5px 15px 15px;
+}
+
+#list li a {
+     border-bottom: 1px dotted #808080;
+     color: #287DA4;
+     display: block;
+     font-weight: bold;
+     padding: 8px 15px;
+     text-decoration: none;
+}
+
+#list li:hover {
+     list-style: disc outside none;
+}
+
+#list li a:hover {
+     text-decoration: underline;
+}
+
+#products {
+     list-style: none outside none;
+     margin: 0px;
+     padding: 0px;
+}
+
+#products li {
+     display: block;
+     float: left;
+     margin: 3px;
+}
+
+#list .lActive {
+     color: #0E0635;
+     list-style: disc outside none;
+     text-decoration: underline;
+}
+
+#inputField {
+     margin: 5px;
+     padding: 8px;
+     width: 350px;
+}
+
+#desiger {
+     color: #CCCCCC;
+     padding: 8px 0px;
+}
+
+#desiger a {
+     color: #FFFFFF;
+     text-decoration: none;
+}
+
+input[type="submit"] {
+     padding: 8px 15px;
+}
